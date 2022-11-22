@@ -86,20 +86,6 @@ $ rspec spec/#{filename}_spec.rb
 
 ## Author :writing_hand:
 
-:man_technologist:  **Aron Abraham** :writing_hand: 
-
-- GitHub: [@Aaron](https://github.com/aron-helu)
-- LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/)  
-
-## Author :writing_hand:
-
-:man_technologist:  **Rodrigo Johann Reckziegel Nunes** :writing_hand: 
-
-- GitHub: [@Hannziegel](https://github.com/Hannziegel)
-- LinkedIn: [Rodrigo Johann Reckziegel Nunes](https://www.linkedin.com/in/rodrigojrnunes/)
-
-## Author :writing_hand:
-
 :man_technologist:  **Ntihinduka Alpha** :writing_hand: 
 
 - GitHub: [githubhandle](https://github.com/AlphaNtihinduka)
