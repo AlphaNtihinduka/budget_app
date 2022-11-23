@@ -1,9 +1,10 @@
 class PaymentsController < ApplicationController
   before_action :set_payment, only: %i[ show edit update destroy ]
+  before_action :set_category
 
   # GET /payments or /payments.json
   def index
-    @payments = Payment.all
+    @payments = @category.payments
   end
 
   # GET /payments/1 or /payments/1.json
@@ -13,6 +14,7 @@ class PaymentsController < ApplicationController
   # GET /payments/new
   def new
     @payment = Payment.new
+    @payment.amount = "200"
   end
 
   # GET /payments/1/edit
@@ -23,11 +25,12 @@ class PaymentsController < ApplicationController
   def create
     @payment = Payment.new(payment_params)
     @payment.user_id = current_user.id
+    @category.payments << @payment
 
 
     respond_to do |format|
       if @payment.save
-        format.html { redirect_to payment_url(@payment), notice: "Payment was successfully created." }
+        format.html { redirect_to category_url(@category), notice: "Payment was successfully created." }
         format.json { render :show, status: :created, location: @payment }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -63,6 +66,10 @@ class PaymentsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_payment
       @payment = Payment.find(params[:id])
+    end
+
+    def set_category
+      @category = Category.find(params[:category_id])
     end
 
     # Only allow a list of trusted parameters through.
