@@ -2,6 +2,7 @@
 
 <h1 class="title">Categories</h1>
 
+<% if can? :read, @categories %>
 <div id="categories">
   <% @categories.each do |category| %>
     <div class="category">
@@ -12,5 +13,5 @@
     </div>
   <% end %>
 </div>
-
+<% end %>
 <%= link_to "New category ✚", new_category_path, class: "add_new" %>
