@@ -8,7 +8,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1 or /categories/1.json
   def show
-    @payments = @category.payments
+    @payments = @category.payments.order(created_at: :desc)
   
   end
 
