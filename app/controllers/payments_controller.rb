@@ -1,6 +1,7 @@
 class PaymentsController < ApplicationController
   before_action :set_payment, only: %i[ show edit update destroy ]
   before_action :set_category
+  before_action :authenticate_user!
 
   # GET /payments or /payments.json
   def index
