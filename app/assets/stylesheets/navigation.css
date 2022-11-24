@@ -1,0 +1,8 @@
+.nav_bar {
+    background-color: #3778c2 ;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #3778c2 5fb523 434b54 */
