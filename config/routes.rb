@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :splashes
   
   devise_for :users
   resources :categories do

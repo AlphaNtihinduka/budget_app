@@ -63,6 +63,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'webdrivers'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
 end
 
 group :development do
