@@ -32,6 +32,10 @@
     font-size: 1.2rem;
 }
 
+.input {
+    padding: 0.2rem;
+}
+
 .transaction_form_container .input {
     width: 100%;
     font-size: 1.2rem;
@@ -47,8 +51,4 @@
     font-size: 1.3rem;
     color: #3778c2;
     margin: 0.5rem 0 0 0.5rem ;
-}
-
-.input {
-    padding: 0.2rem;
 }

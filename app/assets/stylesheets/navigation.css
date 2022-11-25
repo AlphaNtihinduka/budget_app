@@ -27,7 +27,6 @@
 .nav_bar__links {
     display: flex;
     justify-content: space-around;
-    gap: 2;
 }
 
 .nav_bar__link {
