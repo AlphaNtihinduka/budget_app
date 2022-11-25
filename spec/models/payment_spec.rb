@@ -8,7 +8,7 @@ RSpec.describe Payment, type: :model do
   end
 
   it 'Inventoryfood should have valid attributes' do
-    expect(@payment.name).to eq("payment 1")
+    expect(@payment.name).to eq('payment 1')
   end
 
   it 'Inventoryfood should have valid attributes' do

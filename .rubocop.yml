@@ -3,10 +3,13 @@ AllCops:
   Exclude:
     - "db/**/*"
     - "bin/*"
+    - "spec/views/splashes/new.html.erb_spec.rb"
     - "config/**/*"
     - "Guardfile"
+    - "spec/views/splashes/index.html.erb_spec.rb"
     - "Rakefile"
     - "node_modules/**/*"
+    - 'spec/views/splashes/edit.html.erb_spec.rb'
 
   DisplayCopNames: true
 

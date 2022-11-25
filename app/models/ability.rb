@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Ability
   include CanCan::Ability
 
@@ -9,9 +7,10 @@ class Ability
     # Define abilities for the user here. For example:
     #
     return unless user.present?
+
     can :read, :all
     can :manage, Category, user: user
-    can :manage, Payment, user: user
+    can :manage, Payment, user:
     #
     #   return unless user.present?
     #   can :read, :all
