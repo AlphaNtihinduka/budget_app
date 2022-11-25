@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
       if user_signed_in?
         super
       else
-        redirect_to splashes_path
+        redirect_to splashes_path if request.original_fullpath != splashes_path
       end
     end
 end
