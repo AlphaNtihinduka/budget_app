@@ -1,6 +1,7 @@
 .form_wrapper {
     height: 50vh;
     position: relative;
+    margin-top: 2rem;
 }
 
 .form_container{
@@ -46,4 +47,8 @@
     font-size: 1.3rem;
     color: #3778c2;
     margin: 0.5rem 0 0 0.5rem ;
+}
+
+.input {
+    padding: 0.2rem;
 }
