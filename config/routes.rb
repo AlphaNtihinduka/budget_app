@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :splashes
   
   devise_for :users
+  resources :users
   resources :categories do
     resources :payments
   end
