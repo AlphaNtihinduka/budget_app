@@ -5,7 +5,7 @@ class Ability
 
   def initialize(user)
     # Define abilities for the user here. For example:
-    # can :read, Splash, public: true
+    can :read, Splash, public: true
     # Define abilities for the user here. For example:
     #
     return unless user.present?
