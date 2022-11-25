@@ -15,7 +15,7 @@
 .category {
     padding: 1rem;
     margin: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .category:hover {
@@ -57,5 +57,3 @@
     border: none;
     cursor: pointer;
 }
-
-/* #3778c2 5fb523 434b54 */

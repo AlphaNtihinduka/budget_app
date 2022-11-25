@@ -5,7 +5,7 @@
 <%= render @category %>
 <div class="title">
   <p class="transaction_title">Transactions</p>
-  <p class="transaction_total">Total transaction amount: <%= @category.payments.sum(:amount)%><p>
+  <p class="transaction_total">Total transaction amount: $<%= @category.payments.sum(:amount)%><p>
 </div>
 
 <div>

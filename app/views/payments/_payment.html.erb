@@ -1,16 +1,16 @@
-<div id="<%= dom_id payment %>">
+<div id="<%= dom_id payment %>" class="transaction_wrapper">
+
+<div>
   <p>
     <strong>Name:</strong>
     <%= payment.name %>
   </p>
-
-  <p>
-    <strong>Amount:</strong>
-    <%= payment.amount %>
-  </p>
-
-  <p>
+  <p class="transaction_date">
   <%= payment.created_at.strftime("%d-%B-%Y") %>
 </p>
-
+</div>
+  <p>
+    <strong>Amount: $</strong>
+    <%= payment.amount %>
+  </p>
 </div>
