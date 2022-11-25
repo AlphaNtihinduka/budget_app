@@ -23,9 +23,11 @@
     <%= form.label :amount, style: "display: block" %>
     <%= form.text_field :amount %>
   </div>
-  <div >
+  <div>
     <%= form.label :category_id%>
-    <%= form.collection_check_boxes(:category_ids, current_user.categories, :id, :name) %>
+    <div class="category_select">
+      <%= form.collection_check_boxes(:category_ids, current_user.categories, :id, :name) %>
+    </div>
   </div>
   <div>
     <%= form.submit %>
