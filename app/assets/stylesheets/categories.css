@@ -1,6 +1,6 @@
 .title{
     background-color: #5fb523;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     color: white;
     position: relative;
@@ -13,10 +13,17 @@
 }
 
 .category {
-    border: 1px solid #434b54;
+    padding: 1rem;
     margin: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 }
 
+.category:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.category_name {
+    color: black;
+}
 .name_icon {
     display: flex;
     justify-content: space-around;

@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 <div>
-  <%= link_to "< Back", categories_path %>
+  <%= link_to "< Back", categories_path, class: "back_btn" %>
 </div>
 <%= render @category %>
 <div class="title">
@@ -13,4 +13,4 @@
 </div>
 
 
-<%= link_to "New Transaction", new_category_payment_path(@category), class: "add_new" %>
+<%= link_to "New Transaction ✚", new_category_payment_path(@category), class: "add_new" %>

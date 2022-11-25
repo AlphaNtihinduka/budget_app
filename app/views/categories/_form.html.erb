@@ -1,3 +1,4 @@
+<div class="form_wrapper">
 <%= form_with(model: category) do |form| %>
   <% if category.errors.any? %>
     <div style="color: red">
@@ -11,17 +12,20 @@
     </div>
   <% end %>
 
+  <div class="form_container">
   <div>
     <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, placeholder: "Category name" %>
   </div>
 
   <div>
     <%= form.label :icon, style: "display: block" %>
-    <%= form.text_field :icon %>
+    <%= form.text_field :icon, placeholder: "Enter icon URL"%>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class: "form_submit_btn" %>
+  </div>
   </div>
 <% end %>
+</div>

@@ -4,8 +4,7 @@
 <% if user_signed_in? %>
   <p class="welcome"> Welcome,
     <%= current_user.name %>
-    <%= link_to '✎', edit_user_registration_path, class: "nav_bar__link" %>
-  <ul class="nav_bar__links">
+  <ul >
     <li>
       <%= button_to "Log out", destroy_user_session_path, method: :delete, data: { turbo: false }, class: "nav_bar__btn" %>
     </li>
