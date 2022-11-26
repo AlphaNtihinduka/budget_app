@@ -1,113 +1,304 @@
-![Microverse](https://img.shields.io/badge/-Microverse-%20%236f23ff?style=for-the-badge) 
+<a name="readme-top"></a>
 
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) 
-![Rails](https://camo.githubusercontent.com/2f7aa65a22dedd331620c426fd36d88c01600b2c8ed750c41cc72b4d86364937/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7261696c732d2532334343303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d727562792d6f6e2d7261696c73266c6f676f436f6c6f723d7768697465)
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
+Modify this file to match your project and remove sections that don't apply.
 
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With :hammer_and_wrench: 
+After you're finished please remove all the comments and instructions!
+-->
 
-- **Ruby:** Popular programming language that’s used for lots of things, from web app development to data analysis.
+<div align="center">
 
-- **Rails:**  Full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-- **GitHub flow:**  Correct use of Branches for deployment and features development.
+  <h3><b>Microverse README Template</b></h3>
 
-- **Linters Check (Rubocop):** Local and Pull Request check for errors, bugs and stylistic errors in code.
+</div>
 
-- **RSpec:** Unit test framework for the Ruby programming language.
+<!-- TABLE OF CONTENTS -->
 
-- **PostgreSQL:** powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+# 📗 Table of Contents
 
-[Budget application Live demo](https://powerful-citadel-47440.herokuapp.com/)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-## Entity Relationship Diagram 
+<!-- PROJECT DESCRIPTION -->
 
-![](./budget.png)
+# 📖 [Budget-app] <a name="about-project"></a>
 
-## Quick view
+> This is a Ruby on Rails app that allows user to create, and list payements grouped by related categories that spent on.
 
-<img width="374" alt="erd_diagram" src="https://user-images.githubusercontent.com/99394374/204089568-6bf6d52c-fff9-4a6b-988b-450630a59e42.png">
+*[Budget-app]* is a tracking your spending is often the first step in getting your finances in order. By understanding what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.
 
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started ➡️
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-To get a local copy up and running follow these simple steps.:arrow_down:
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby On Rails</a></li>
+  </ul>
+</details>
 
-### Prerequisites ✅
-- A code editor like Visual Studio Code with Git and Ruby.
-- You can check if Git is installed by running the following command in the terminal: 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
 
-```
-$ git --version
-```
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-Likewise for Ruby installation.
+<!-- Features -->
 
-```
-$ ruby --version
-``` 
+### Key Features <a name="key-features"></a>
+
+> what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.
+
+- *[Track your expenses]*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://powerful-citadel-47440.herokuapp.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to work on this project, you need to have the following dependencies installed:
+
+<ul>
+  <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+  <li><a href="https://nodejs.org/en/">Node.js</a></li>
+  <li><a href="https://yarnpkg.com/">yarn</a></li>
+  <li><a href="https://rubyonrails.org/">Rails</a></li>
+</ul>
+
+<!--
+Example command:
+
+sh
+ gem install rails
+
+ -->
 
 ### Setup
 
-1. Clone the GitHub repository using the  this link 
-```
-  $ git clone https://github.com/AlphaNtihinduka/food_reciepe.git
-```
-2. Checkout to the branch
-```
-$ git checkout dev
-```
-3. Run in your terminal to install all gems required to run the app.
-```
-$ bundle install
-``` 
-4. Go to your terminal and run the app with the following command:
-```
-$ rails server
-```
-- **Navigate:** to http://localhost:3000/ 
+Clone this repository to your desired folder:
 
 
-## Run tests
+sh
+  git clone git@github.com:aron-helu/Budget-app.git
+  cd Budget-app
 
-To install rspec, i the terminal kindly run this command
-```
-$ gem install rspec
-```
-To run tests. please run this command
-```
-$ rspec spec/#{filename}_spec.rb
-```
 
-## Author :writing_hand:
+
+### Commands to run
+
+To get all the gems required for the project:
+
+
+
+  bundle install
+
+
+To install packages such as style linters:
+
+
+
+  npm install
+
+
+To check linters locally, use:
+
+
+rubocop
+
+npx stylelint "**/*.{css,scss}"
+
+
+
+Once you have the project correctly set up, run:
+
+To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes:
+
+bin/rails db:setup
+
+
+Finally, each time you make changes to the project, run
+
+In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description:
+
+
+bundle exec rspec /spec
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+
+  rails server
+
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+
+sh
+  bin/rails test test/models/article_test.rb
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="Ntihinduka Alpha"></a>
+
+> Mention all of the collaborators of this project.
 
 :man_technologist:  **Ntihinduka Alpha** :writing_hand: 
 
 - GitHub: [githubhandle](https://github.com/AlphaNtihinduka)
 - Twitter: [twitterhandle](https://twitter.com/@alphantihinduka)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/) 
-## 🤝 Contributing
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] *[new_feature_1]*
+- [ ] *[new_feature_2]*
+- [ ] *[new_feature_3]*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
-- [Microverse](https://www.microverse.org/)
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+## ⭐️ Show your support <a name="support"></a>
 
-Original design [idea by Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+> Write a message to encourage readers to support your project
 
-The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
+If you like this project...
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+- Original Design by: [Gregoire Vella](https://www.behance.net/gregoirevella)
+
+- Microverse
+
+- LazyCoders
+
+- Coding Partners
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- *[Question_1]*
+
+  - [Answer_1]
+
+- *[Question_2]*
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
