@@ -2,9 +2,9 @@ class SplashesController < ApplicationController
   before_action :set_splash, only: %i[show edit update destroy]
 
   # GET /splashes or /splashes.json
-  def index
-    @splashes = Splash.all
-  end
+  def index 
+    redirect_to categories_path if user_signed_in? 
+  end 
 
   # GET /splashes/1 or /splashes/1.json
   def show; end

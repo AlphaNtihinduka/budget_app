@@ -4,16 +4,8 @@ class ApplicationController < ActionController::Base
   protected
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: %i[name email password password_confirmation])
+    attributes = %i[name email password password_confirmation current_password] 
+    devise_parameter_sanitizer.permit(:sign_up, keys: attributes) 
   end
 
-  private
-
-  def authenticate_user!
-    if user_signed_in?
-      super
-    elsif request.original_fullpath != splashes_path
-      redirect_to splashes_path
-    end
-  end
 end
