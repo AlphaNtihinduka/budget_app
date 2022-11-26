@@ -1,0 +1,16 @@
+<div id="<%= dom_id category %>">
+<div class="name_icon">
+  <div class="icon_container">
+      <% if category.icon.nil? %>
+        <%= image_tag "https://cdn-icons-png.flaticon.com/512/3843/3843517.png", class:"icon_image"%>
+      <% else %>
+        <%= image_tag category.icon, class:"icon_image" %>
+      <% end %>
+  </div>
+  <p class="category_name">
+    <strong>Name:</strong>
+    <%= category.name %>
+  </p>
+</div>
+
+</div>

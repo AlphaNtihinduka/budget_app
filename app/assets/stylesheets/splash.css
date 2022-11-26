@@ -1,0 +1,28 @@
+.section {
+  height: 85.7vh;
+  position: relative;
+  background: url("https://cdn.corporatefinanceinstitute.com/assets/budget-1024x617.jpeg");
+}
+
+.section__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: rgba(160, 148, 148, 0.5);
+  padding: 2rem;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0 inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.btn_start {
+  margin: 1rem auto;
+}
+
+.section__title {
+  font-size: 1.8rem;
+}
+
+.section__description {
+  font-size: 1.4rem;
+}

@@ -19,19 +19,16 @@
 
 - **PostgreSQL:** powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
 
+[Budget application Live demo](https://powerful-citadel-47440.herokuapp.com/)
+
 ## Entity Relationship Diagram 
 
 ![](./budget.png)
 
 ## Quick view
 
-![](././app/assets/images/Screenshot%20from%202022-11-20%2003-02-03.png)
+<img width="374" alt="erd_diagram" src="https://user-images.githubusercontent.com/99394374/204089568-6bf6d52c-fff9-4a6b-988b-450630a59e42.png">
 
-![](././app/assets/images/Screenshot%20from%202022-11-20%2003-02-42.png)
-
-![](././app/assets/images/Screenshot%20from%202022-11-20%2003-21-57.png)
-
-![](././app/assets/images/Screenshot%20from%202022-11-20%2003-03-00.png)
 
 
 ## Getting Started ➡️
@@ -106,6 +103,10 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+Original design [idea by Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+
+The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
