@@ -6,7 +6,7 @@
   position: relative;
 }
 
-#categories {
+.categories {
   display: flex;
   flex-direction: column;
   text-align: center;
