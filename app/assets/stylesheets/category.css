@@ -1,0 +1,17 @@
+.transaction_title {
+  font-size: 2rem;
+}
+
+.transaction_total {
+  position: absolute;
+  right: 3rem;
+  bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.back_btn {
+  font-size: 1.3rem;
+  color: #3778c2;
+  position: absolute;
+  margin: 0.5rem 0 0 0.5rem;
+}
