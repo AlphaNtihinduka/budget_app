@@ -106,7 +106,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://powerful-citadel-47440.herokuapp.com/)
+- [Live Demo Link](https://budget-app-a3.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,22 +155,22 @@ To get all the gems required for the project:
 
 
 
-  bundle install
+  `bundle install`
 
 
 To install packages such as style linters:
 
 
 
-  npm install
+  `npm install`
 
 
 To check linters locally, use:
 
 
-rubocop
+`rubocop`
 
-npx stylelint "**/*.{css,scss}"
+`npx stylelint "**/*.{css,scss}"`
 
 
 
@@ -178,7 +178,7 @@ Once you have the project correctly set up, run:
 
 To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes:
 
-bin/rails db:setup
+`bin/rails db:setup`
 
 
 Finally, each time you make changes to the project, run
@@ -186,7 +186,7 @@ Finally, each time you make changes to the project, run
 In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description:
 
 
-bundle exec rspec /spec
+`bundle exec rspec /spec`
 
 
 ### Usage
@@ -195,7 +195,7 @@ To run the project, execute the following command:
 
 
 
-  rails server
+  `rails server`
 
 --->
 
@@ -205,7 +205,7 @@ To run tests, run the following command:
 
 
 sh
-  bin/rails test test/models/article_test.rb
+  `bin/rails test test/models/article_test.rb`
 
 
 
@@ -233,8 +233,8 @@ sh
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] *[new_feature_1]*
-- [ ] *[new_feature_2]*
+- [ ] *[Google Authentication]*
+- [ ] *[The amount spent within specific period]*
 - [ ] *[new_feature_3]*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
