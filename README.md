@@ -24,10 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h1><b>Budget Application</b></h1>
 
 </div>
 
@@ -59,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Budget-app] <a name="about-project"></a>
 
-> This is a Ruby on Rails app that allows user to create, and list payements grouped by related categories that spent on.
+> This is a Ruby on Rails app that allows user to create, and list payments grouped by related categories that spent on.
 
 *[Budget-app]* is a tracking your spending is often the first step in getting your finances in order. By understanding what you spend money on and how much you spend, you can see exactly where your cash is going and areas where you can cut back.
 
